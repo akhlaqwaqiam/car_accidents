@@ -14,6 +14,7 @@ body {
     color: #333;
     direction: rtl;
     text-align: center;
+    margin:0;
 }
 
 .navbar {
