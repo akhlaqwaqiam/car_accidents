@@ -1,2 +1,161 @@
-# car_accidents
-موقع للتوعية من حوادث المرور في الاردن
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>حوادث السير في الأردن</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #FBF8EF;
+    color: #333;
+    direction: rtl;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #F7CFD8;
+}
+
+.navbar a {
+    color: #333 !important;
+    font-weight: bold;
+}
+
+header {
+    background-color: #80CBC4;
+    color: white;
+    padding: 2rem 0;
+}
+
+.section-title {
+    color: #FFB6B9;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+section {
+    padding: 3rem 1rem;
+    background-color: #FFF4EA;
+}
+
+.card {
+    background-color: #BBDED6;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.list-group-item {
+    background-color: #DCEAEF;
+    border: none;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: #DCEAEF;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.btn-custom:hover {
+    background-color: #7EACB5;
+    color: white;
+}
+
+footer {
+    background-color: #80CBC4;
+    color: white;
+    padding: 1rem 0;
+}
+
+.icon {
+    color: #7EACB5;
+    margin-left: 10px;
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+    <a class="navbar-brand" href="#">🚗 حوادث السير في الأردن</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#statistics">الإحصائيات</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reasons">الأسباب</a></li>
+        <li class="nav-item"><a class="nav-link" href="#areas">المناطق</a></li>
+        <li class="nav-item"><a class="nav-link" href="#recommendations">التوصيات</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+<header>
+    <h1>🚦 حوادث السير في الأردن</h1>
+    <p>نظرة شاملة على الأرقام، الأسباب، والحلول</p>
+</header>
+
+<section id="statistics">
+    <div class="container">
+    <h2 class="section-title"><i class="fas fa-chart-line icon"></i> الإحصائيات</h2>
+    <div class="card">
+        <p>في عام 2023، تم تسجيل نحو 170,000 حادث مروري نتج عنها 560 وفاة و16,469 إصابة بشرية.</p>
+        <p>المعدل اليومي: 1.5 وفاة و45 إصابة.</p>
+    </div>
+    <div class="card">
+        <p>الخسائر الاقتصادية السنوية تُقدّر بـ 320 مليون دينار أردني.</p>
+    </div>
+    <div class="card">
+        <p>خلال 6 سنوات: أكثر من 915,000 حادث، 3,511 وفاة، و5,408 إصابات بليغة، وخسائر بنحو ملياري دينار.</p>
+    </div>
+    </div>
+</section>
+
+<section id="reasons">
+    <div class="container">
+    <h2 class="section-title"><i class="fas fa-exclamation-triangle icon"></i> الأسباب</h2>
+    <ul class="list-group">
+        <li class="list-group-item">عدم الالتزام بالشواخص والإشارات (40% من الحوادث)</li>
+        <li class="list-group-item">السرعة الزائدة</li>
+        <li class="list-group-item">استخدام الهاتف أثناء القيادة</li>
+        <li class="list-group-item">القيادة تحت تأثير الكحول أو المخدرات</li>
+        <li class="list-group-item">الظروف الجوية السيئة (الضباب أو الأمطار)</li>
+    </ul>
+    </div>
+</section>
+
+<section id="areas">
+    <div class="container">
+    <h2 class="section-title"><i class="fas fa-map-marker-alt icon"></i> أكثر المناطق</h2>
+    <div class="card">
+        <p>العاصمة عمان: أعلى نسبة وفيات (40.9%)</p>
+        <p>الطرق السريعة مثل الطريق الصحراوي: من أكثر المناطق التي تشهد حوادث</p>
+    </div>
+    </div>
+</section>
+
+<section id="recommendations">
+    <div class="container">
+    <h2 class="section-title"><i class="fas fa-check-circle icon"></i> التوصيات</h2>
+    <ul class="list-group">
+        <li class="list-group-item">الالتزام بقوانين المرور والإشارات</li>
+        <li class="list-group-item">حملات توعية للسائقين</li>
+        <li class="list-group-item">تحسين البنية التحتية وصيانة الطرق</li>
+        <li class="list-group-item">استخدام الكاميرات والتقنيات الحديثة</li>
+    </ul>
+    </div>
+</section>
+
